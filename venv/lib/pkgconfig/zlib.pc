@@ -1,0 +1,13 @@
+prefix=/config/workspace/prac/venv
+exec_prefix=/config/workspace/prac/venv
+libdir=/config/workspace/prac/venv/lib
+sharedlibdir=/config/workspace/prac/venv/lib
+includedir=/config/workspace/prac/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
